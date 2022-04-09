@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="./Components/Images/favicon.ico" type="image/x-icon">
+    <!--Referencias Css-->
+    <link href="./Style/responda.css" rel="stylesheet">
+    <link href="./Style/Fonts.css" rel="stylesheet">
+    <link href="./Style/media.css" rel="stylesheet">
+    <title>Valorant</title>
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <div id="title">
+            <h1>Riot</h1>
+            <h1>Games</h1>
+        </div>
+
+        <!--Lista-->
+        <ul>
+            <a href="./LandingPage.html"> <li>Início</li></a>
+            <a href="./Personagens.html"><li>Personagens</li></a>
+            <a href="./Habilidades.html"><li>Habilidades</li></a>
+            <a href="./Mapas.html"><li>Mapas</li></a>
+            <a href="./Competitivo.html"><li>Competitivo</li></a>
+            <a href="./Responda.html" id="Responda-btn"><li>Responda</li></a>
+            
+        </ul>
+    </header>
+
+    <main>
+        <h2>Questionário.</h2>
+        <div id="formulario">
+            <aside id="esquerda">
+                <h3>De acordo com o conteúdo do site, responda as questões a baixo.</h3>
+                <form action="">
+                    <input type="text" placeholder="Nome">
+                    <input type="text" placeholder="Escolha um personagem" list="personagens">
+                    <datalist id="personagens">
+                        <option value="Jett"></option>
+                        <option value="Neon"></option>
+                        <option value="Reyna"></option>
+                        <option value="Phoenix"></option>
+                        <option value="Yoru"></option>
+                        <option value="Raze"></option>
+                        <option value="Sage"></option>
+                        <option value="Cypher"></option>
+                        <option value="Killjoy"></option>
+                        <option value="Chamber"></option>
+                        <option value="Viper"></option>
+                        <option value="Omen"></option>
+                        <option value="Brimstone"></option>
+                        <option value="Astra"></option>
+                        <option value="Sova"></option>
+                        <option value="Skye"></option>
+                        <option value="Breach"></option>
+                    </datalist>
+                    <input type="text" placeholder="Digite uma habilidade">
+                    <input type="text" placeholder="Digite a ultimate">
+                    <input type="text" placeholder="Quantos mapas existem?">
+                    <input type="text" placeholder="Quando surgiu o jogo?">
+                    <input type="text" placeholder="Onde é a empresa do jogo?">
+                    <input type="submit" value="Enviar">
+                </form>
+            </aside>
+
+            <article id="direita">
+                <img src="./Components/Images/Valorant.jpg" width="100%" alt="Banner valorant">
+
+            </article>
+
+        </div>
+
+    </main>
+</body>
+
+</html>

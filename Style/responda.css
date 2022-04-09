@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+header{
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 15px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+#Responda-btn{
+    border: solid 2px rgb(255, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#Responda-btn:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.3s all;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+#formulario{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#esquerda{
+    margin: 50px;
+    width: 100%;
+}
+
+
+#direita{
+    display:block;
+    margin: 110px;
+}
+
+input{
+    margin-top: 20px;
+    border: solid white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;  
+}
+
+h2{
+    color: red;
+    font-size: 60px;
+    font-family: poppinsbold;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: poppinsbold;
+    border-radius: 10px;
+}

@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(34, 34, 34) !important;
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+header{
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 15px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    text-align: justify;
+    
+}
+
+#Esquerda{
+    margin: 50px;
+}
+
+#Direita{
+    margin: 50px;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+h3{
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    margin-top: 10px;
+    font-family: poppinssemibold;
+}
+
+p{
+    line-height: 20px;
+    max-width: 1000px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 100%;
+}
+
+#Responda-btn{
+    border: solid 2px rgb(255, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#Responda-btn:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.3s all;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(50, 50, 50);
+    font-family: poppinsregular;
+    text-align: center;
+    
+}
+
+h2{
+    color: red;
+    font-size: 60px;
+    font-family: poppinsbold;
+    border: ridge;
+    text-align: center;
+}
+
+#subtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+

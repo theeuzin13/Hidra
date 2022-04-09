@@ -1,0 +1,47 @@
+@media screen and (max-width: 750px){
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+
+    .logo{
+        text-align: center;
+    }
+      
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 38px;
+    }
+
+    #personagens{
+        display: flexbox;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        image-resolution: 40%;
+    }
+
+    #trailer{
+        width: 100%;
+    }
+
+    #localizacao{
+        width: 100%;
+    }
+
+}
